@@ -1947,12 +1947,12 @@ pre .javascript .function {
 .feed-link a {
   display: inline-block;
   padding: 0 15px;
-  color: #fc6423;
-  border: 1px solid #fc6423;
+  color: #040404;
+  border: 1px solid #040404;
   border-radius: 4px;
 }
 .feed-link a i {
-  color: #fc6423;
+  color: #040404;
   font-size: 14px;
 }
 .feed-link a:hover {
@@ -1981,7 +1981,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff5cff;
+  background: #91ff32;
 }
 .links-of-blogroll {
   font-size: 13px;
