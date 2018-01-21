@@ -340,6 +340,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hello-world - 副本 (6)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world - 副本 (6)/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -491,6 +501,16 @@ Deploy to remote sites1$ hexo
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hello-world - 副本 (7)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world - 副本 (7)/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -644,6 +664,16 @@ Deploy to remote sites1$ hexo
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hello-world - 副本 (8)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world - 副本 (8)/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -796,6 +826,16 @@ Deploy to remote sites1$ hexo
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hello-world - 副本 (9)/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world - 副本 (9)/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -947,6 +987,16 @@ Deploy to remote sites1$ hexo
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/hello-world - 副本/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world - 副本/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -1303,6 +1353,28 @@ Deploy to remote sites1$ hexo
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'BXDL7Yh87ddTzz0fUMCcQeo9-gzGzoHsz',
+        appKey: 'h4MkdIugVykD8wPVdQiEg3Gu',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
