@@ -1975,6 +1975,7 @@ pre .javascript .function {
   text-decoration: none;
 }
 .links-of-author a:before {
+  text-decoration: none;
   display: inline-block;
   vertical-align: middle;
   margin-right: 3px;
@@ -1982,7 +1983,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9412ff;
+  background: #17ffb6;
 }
 .links-of-blogroll {
   font-size: 13px;
