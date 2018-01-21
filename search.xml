@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Windows下Git与Node.js的安装--（Hexo个人博客搭建前期准备）]]></title>
+    <url>%2FWin-Install-Git-Nodejs%2F</url>
+    <content type="text"><![CDATA[在搭建Hexo个人博客之前，需要先安装Git与Node.js环境（具体可参见Hexo官方文档 开始使用-概述 的相关描述），下面我们简单介绍一下具体的安装步骤，希望对你有所帮助。 说明：本文只针对Windows平台下的Git与Node.js安装，其他平台的请自行上网查阅 1.Git安装 Git是什么： Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。 下载Git For Windows：Git，进入下载页面后，会默认自动下载最新版本的安装程序，如果长时间没反应，点击click here to download manually手动下载Git安装程序，我下载时的版本为Git-2.13.0-64-bit.exe。 下载好后，安装过程和普通的桌面应用程序一样，傻瓜式的下一步，直到完成。 安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”，点击后弹出一个类似CMD（命令行）窗口的东西，就说明Git安装成功了，使用git --version命令可查看安装的git版本； 2.Node.js安装 Node.js是什么： Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。 Node.js 的包管理器 npm，是全球最大的开源库生态系统 下载Node.js For Windows：Node.js，进入下载页面后，根据自己的操作系统选择对应的安装包，我的电脑是64位的win10，选择的版本是node-v6.11.0-x64.msi。 下载好后，安装过程和普通的桌面应用程序一样，傻瓜式的下一步，直到完成。 安装完成后，在命令行窗口，输入path命令，查看nodejs是否已配置到环境变量中，如果没有，需要手动配置，这和我们在配置JDK环境时设置path的方法一样。设置好后，我们就可以在CMD窗口或GIT SHELL窗口直接使用Note.js的包管理器npm了。 在命令行窗口中，使用node -v命令查看安装的Node.js的版本，如果你获得下面输出结果，说明你已经成功安装了Node.js。 是不是非常简单，通过上述几步，我们已经完成了Git和Node.js的安装，接下来我们就可以准备部署我们的Hexo个人博客了。]]></content>
+      <categories>
+        <category>常用技术</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+        <tag>Windows</tag>
+        <tag>Nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[About Me]]></title>
     <url>%2FAbout-Me%2F</url>
     <content type="text"><![CDATA[博客对我的意义很久之前在某个地方看到过这么一句话： 思绪来得快去得也快偶尔会在这里停留 这也许就是博客对我的意义吧 脑袋记不住的，写下来 是总结，也是回忆。 我你好，我是王维新，A Computer Engineer 喜欢科技、旅行、摄影…… 喜欢分享生活的乐趣 很高兴与你相识 期待你的故事]]></content>
