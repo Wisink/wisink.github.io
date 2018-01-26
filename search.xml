@@ -8,9 +8,9 @@
         <category>常用技术</category>
       </categories>
       <tags>
-        <tag>Markdown</tag>
         <tag>Hexo</tag>
         <tag>Blog</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -21,9 +21,9 @@
         <category>常用技术</category>
       </categories>
       <tags>
+        <tag>Git</tag>
         <tag>Hexo</tag>
         <tag>Blog</tag>
-        <tag>Git</tag>
         <tag>Windows</tag>
         <tag>Nodejs</tag>
       </tags>
