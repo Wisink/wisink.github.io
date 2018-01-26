@@ -38,11 +38,11 @@
       <category term="常用技术" scheme="http://wisink.life/categories/tech/"/>
     
     
+      <category term="Markdown" scheme="http://wisink.life/tags/Markdown/"/>
+    
       <category term="Hexo" scheme="http://wisink.life/tags/hexo/"/>
     
       <category term="Blog" scheme="http://wisink.life/tags/blog/"/>
-    
-      <category term="Markdown" scheme="http://wisink.life/tags/Markdown/"/>
     
   </entry>
   
@@ -67,11 +67,11 @@
       <category term="常用技术" scheme="http://wisink.life/categories/tech/"/>
     
     
-      <category term="Git" scheme="http://wisink.life/tags/git/"/>
-    
       <category term="Hexo" scheme="http://wisink.life/tags/hexo/"/>
     
       <category term="Blog" scheme="http://wisink.life/tags/blog/"/>
+    
+      <category term="Git" scheme="http://wisink.life/tags/git/"/>
     
       <category term="Windows" scheme="http://wisink.life/tags/Windows/"/>
     
